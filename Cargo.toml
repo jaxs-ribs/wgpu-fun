@@ -1,0 +1,10 @@
+[package]
+name = "cosine_similarity_wgpu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.15"
+pollster = "0.3"
+futures-intrusive = { version = "0.4", features = ["std"] }
+bytemuck = { version = "1.20", features = ["derive"] }
